@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Animated Graphic Sequence Documentation</title>
+    <style>
+        /* CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #00008B; /* Dark blue background */
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #FFFAF0; /* Cream/offwhite background */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        code {
+            background-color: #f9f9f9;
+            padding: 2px 4px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .blinking {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Interactive Animated Graphic Sequence Documentation</h1>
+        
+        <h2>Candidate Details</h2>
+        <p>Roll Number: <code>102103449, 102103436</code><br>
+        Name: <code>Aaryan Duggal, Jaideep Singh</code></p>
+
+        <h2>Description</h2>
+        <p>The "Interactive Animated Graphic Sequence" project is a captivating endeavor that seamlessly integrates HTML, CSS, and JavaScript to craft an engaging visual experience. At its core, this project centers around a dynamic animation featuring a train traversing horizontally across the screen, ingeniously punctuated by a transition between day and night modes. The animation isn't merely an aesthetic spectacle; it serves as a symbolic representation of the passage of time, lending a deeper narrative layer to the viewer's experience. As the train completes each cycle, the seamless shift from day to night, and vice versa, underscores the project's thematic exploration of temporal progression. This transition is executed with finesse, evoking a sense of fluidity and continuity akin to the natural rhythm of day and night cycles. Through meticulous attention to detail and a mastery of animation techniques, the project achieves a harmonious synthesis of form and function, captivating the audience with its immersive and visually striking presentation. With its seamless integration of interactive elements and captivating storytelling, the "Interactive Animated Graphic Sequence" project stands as a testament to the power of digital creativity and innovation in web development.</p>
+
+        <h2>Screenshots</h2>
+        <h3>Day Mode</h3>
+        <img src="Day.png" alt="Train Day">
+        <h3>Night Mode</h3>
+        <img src="Night.png" alt="Train Night">
+        <h2>Teaser</h2>
+        <img src="GIF Project.gif" alt="Train GIF">
+
+        <h2>Files Included</h2>
+        <ul>
+            <li>index.html: The index.html file forms the structural foundation of the webpage, defining the layout and arrangement of various elements. It includes the canvas element where the animated graphic sequence is displayed, along with links to the necessary JavaScript files (background.js and experiment.js). Furthermore, index.html provides a platform for incorporating additional content, such as candidate details, project descriptions, and interactive elements. By organizing and structuring the webpage's components, index.html ensures seamless integration and optimal presentation of the animated graphic sequence to the audience.</li>
+            <li>background.js: The background.js file serves as the backbone for creating the immersive visual backdrop of the webpage. It defines functions for drawing the sky, celestial objects, clouds, ground, railway station building, trees, and other elements that contribute to the atmospheric ambiance of the animation. Additionally, it handles the transition between day and night modes, dynamically altering the background color and celestial objects to reflect the changing time of day. Through meticulous attention to detail and creative implementation of canvas drawing techniques, background.js plays a pivotal role in setting the stage for the animated graphic sequence.</li>
+            <li>experiment.js: The experiment.js file encapsulates the experiment class, serving as a central hub for managing candidate details and orchestrating main function calls. Within this file, candidate information, including roll numbers and names, is stored and displayed on the webpage. Additionally, experiment.js coordinates the initialization and execution of essential functions responsible for animating the graphic sequence, toggling between day and night modes, and handling user interactions. By encapsulating these functionalities within the experiment class, experiment.js promotes modularity, code organization, and maintainability, ensuring the smooth operation of the interactive animated graphic sequence.</li>
+          </ul>
+    </div>
+</body>
+</html>
