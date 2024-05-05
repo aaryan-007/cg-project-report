@@ -41,6 +41,24 @@
                 opacity: 0;
             }
         }
+        .run-button {
+            display: inline-block;
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .run-button:hover {
+            background-color: #45a049; /* Darker green */
+        }
     </style>
 </head>
 <body>
@@ -67,7 +85,9 @@
             <li>index.html: The index.html file forms the structural foundation of the webpage, defining the layout and arrangement of various elements. It includes the canvas element where the animated graphic sequence is displayed, along with links to the necessary JavaScript files (background.js and experiment.js). Furthermore, index.html provides a platform for incorporating additional content, such as candidate details, project descriptions, and interactive elements. By organizing and structuring the webpage's components, index.html ensures seamless integration and optimal presentation of the animated graphic sequence to the audience.</li>
             <li>background.js: The background.js file serves as the backbone for creating the immersive visual backdrop of the webpage. It defines functions for drawing the sky, celestial objects, clouds, ground, railway station building, trees, and other elements that contribute to the atmospheric ambiance of the animation. Additionally, it handles the transition between day and night modes, dynamically altering the background color and celestial objects to reflect the changing time of day. Through meticulous attention to detail and creative implementation of canvas drawing techniques, background.js plays a pivotal role in setting the stage for the animated graphic sequence.</li>
             <li>experiment.js: The experiment.js file encapsulates the experiment class, serving as a central hub for managing candidate details and orchestrating main function calls. Within this file, candidate information, including roll numbers and names, is stored and displayed on the webpage. Additionally, experiment.js coordinates the initialization and execution of essential functions responsible for animating the graphic sequence, toggling between day and night modes, and handling user interactions. By encapsulating these functionalities within the experiment class, experiment.js promotes modularity, code organization, and maintainability, ensuring the smooth operation of the interactive animated graphic sequence.</li>
-          </ul>
+        </ul>
+
+        <a class="run-button" href="https://aaryan-007.github.io/0x08-2d-animation-project/">Run Interactive Sequence</a>
     </div>
 </body>
 </html>
